@@ -1,0 +1,1 @@
+<link rel="stylesheed" href="<%=application.getContextPath() %>/style.css"/>

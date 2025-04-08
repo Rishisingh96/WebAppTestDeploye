@@ -9,7 +9,7 @@
 </head>
 <body>
     
-<%--     <%@ include file="Component/navbar.jsp" %> --%>
+  <%@ include file="Component/navbar.jsp" %> 
 
     <div class="container-outer">
         <div class="section">
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-  <%--   <%@ include file="Component/footer.jsp" %> --%>
+     <%@ include file="Component/footer.jsp" %> 
 
     <script src="<%=application.getContextPath()%>/js/script.js"></script>
 </body>

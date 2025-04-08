@@ -15,11 +15,14 @@
         <p>This is a basic example of an HTML page.</p>
     </section>
     
+    <h1>Create a Form</h1>
+    
     <section>
         <h2>Contact Information</h2>
         <ul>
             <li>Email: rishicoding9838@gmail.com</li>
             <li>Phone: 7800017055</li>
+            
         </ul>
     </section>
 

@@ -1,0 +1,83 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Filter section styling */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#filterForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  width: 100%;
+}
+
+.filter-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.filter-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
